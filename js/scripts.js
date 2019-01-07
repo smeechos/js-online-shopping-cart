@@ -7,7 +7,7 @@ let maxBeers = 234;
 let beersPerPage = 9;
 let maxPages = maxBeers / beersPerPage;
 let shoppingCart = [];
-let tab = (window.location.pathname.indexOf('/js-shopping-cart/cart') === -1) ? 'home' : 'cart';
+let tab = (window.location.pathname.indexOf('/js-online-shopping-cart/cart') === -1) ? 'home' : 'cart';
 let pagination = {
     current: 1,
     first: 1,
